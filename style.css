@@ -25,7 +25,7 @@
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
-  /* border: #c6100f 1px solid; */
+  border: #c6100f 1px solid;
 }
 
 body {
@@ -824,15 +824,20 @@ textarea {
   .maintextpart1 {
     margin: 0;
   }
+  .maintext1 {
+    font-size: 40px;
+  }
   .allbrands {
     margin: 0;
   }
   .brands1,
   .brands2 {
     gap: 20px;
+    width: 100%;
   }
   .mainnext {
     gap: 20px;
+    width: 100%;
   }
   .Our {
     margin-top: 50px;
@@ -842,6 +847,10 @@ textarea {
   .mainphotos {
     padding: 0;
     overflow: hidden;
+    width: 100%;
+  }
+  .mainphotos img {
+    width: 100%;
   }
   .kradrat2 {
     width: 60%;
@@ -991,7 +1000,7 @@ textarea {
     right: 10px;
   }
   .photos {
-    width: max-content;
+    width: 100%;
     margin: 0 auto;
   }
 
