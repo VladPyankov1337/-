@@ -798,20 +798,22 @@ textarea {
     margin: 0;
     overflow: hidden;
   }
-  .container2photo img {
-    width: 50%;
-    object-fit: cover;
-  }
   .container2photo .circle {
-    transform: translateX(calc(100vw / 2.5));
+    transform: translateX(calc(100vw / 3));
     width: inherit;
   }
   main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    overflow-x: hidden;
   }
   .maintext {
     width: 100%;
     flex-direction: column;
+    padding: 0 10px;
+    gap: 20px;
   }
   .maintext2 {
     font-size: 15px;
@@ -857,11 +859,13 @@ textarea {
   }
   .container3 {
     margin: 0;
+    padding: 0 20px;
   }
   .webuild {
     font-size: 50px;
     padding: 0;
     width: 100%;
+    margin-bottom: 20px;
   }
   .Classes {
     flex-direction: column;
@@ -874,9 +878,10 @@ textarea {
     font-size: 50px;
     width: max-content;
     text-align: start;
+    margin: 40px auto;
   }
   .skills {
-    margin: 0;
+    margin: 50px 0;
   }
   .OURSKILLS {
     width: max-content;
@@ -924,6 +929,7 @@ textarea {
   .Contactus {
     margin: 0;
     gap: 0;
+    padding: 0 15px;
   }
   .womanphoto {
     display: none;
@@ -954,6 +960,7 @@ textarea {
     width: 100%;
     justify-content: flex-start;
     flex-direction: column;
+    gap: 25px;
   }
   .foot {
     width: 100%;
@@ -964,6 +971,10 @@ textarea {
   }
   .gormtest {
     font-size: 12px;
+    padding: 0 10px;
+  }
+  .footright {
+    padding: 0px 10px 30px 10px;
   }
   .messegers2 {
     width: max-content;
@@ -1004,8 +1015,8 @@ textarea {
   }
 
   .logo-text3.active {
-    display: flex; /* Показываем блок, когда добавлен класс active */
-    flex-direction: column; /* Если нужно адаптировать для мобильного */
+    display: flex;
+    flex-direction: column;
     gap: 10px;
     align-items: center;
     margin-top: 10px;
