@@ -838,6 +838,7 @@ textarea {
     gap: 0px;
     flex-wrap: wrap;
     width: 80%;
+    margin: 0 auto;
   }
   .mainnext {
     gap: 20px;
