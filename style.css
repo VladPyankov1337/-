@@ -830,14 +830,11 @@ textarea {
   }
   .allbrands {
     margin: 0;
-    width: 80%;
-    flex-wrap: wrap;
   }
   .brands1,
   .brands2 {
-    gap: 0px;
-    flex-wrap: wrap;
-    width: 80%;
+    gap: 20px;
+    width: 100%;
   }
   .mainnext {
     gap: 20px;
@@ -845,7 +842,7 @@ textarea {
   }
   .Our {
     margin-top: 50px;
-    font-size: 40px;
+    font-size: 50px;
     width: 100%;
   }
   .mainphotos {
@@ -865,7 +862,7 @@ textarea {
     padding: 0 20px;
   }
   .webuild {
-    font-size: 40px;
+    font-size: 50px;
     padding: 0;
     width: 100%;
     margin-bottom: 20px;
@@ -878,7 +875,7 @@ textarea {
   }
   .Testim {
     padding: 0;
-    font-size: 40px;
+    font-size: 50px;
     width: max-content;
     text-align: start;
     margin: 40px auto;
@@ -888,7 +885,7 @@ textarea {
   }
   .OURSKILLS {
     width: max-content;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0 auto;
   }
   .skill1,
@@ -941,9 +938,8 @@ textarea {
     width: 100%;
   }
   .maincontactext {
-    font-size: 40px;
+    font-size: 50px;
     width: max-content;
-    margin: 20px auto;
   }
   .placehold {
     width: 100%;
@@ -954,8 +950,8 @@ textarea {
   }
   .textfrom {
     width: max-content;
-    font-size: 40px;
-    margin: 10px auto;
+    font-size: 50px;
+    margin: 0;
   }
   .frompart2 {
     display: none;
@@ -991,7 +987,6 @@ textarea {
   }
   .teams {
     width: 100%;
-    font-size: 15px;
   }
   .prev__button,
   .next__button {
@@ -1020,19 +1015,13 @@ textarea {
   }
 
   .logo-text3.active {
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Показываем блок, когда добавлен класс active */
+    flex-direction: column; /* Если нужно адаптировать для мобильного */
     gap: 10px;
     align-items: center;
     margin-top: 10px;
     position: absolute;
     right: 20px;
     top: 60px;
-  }
-  .frompart1 {
-    width: 350px;
-  }
-  .frompart1 img {
-    width: 100%;
   }
 }
